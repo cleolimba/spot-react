@@ -23,7 +23,7 @@ function ProductDetail() {
     try {
       setLoading(true);
       // Requête API pour obtenir le produit spécifique
-      const response = await axios.get(`http://localhost:3000/products/${id}`);
+      const response = await axios.get(`https://spot-light-cleolimba.onrender.com/products/${id}`);
       const data = await response.data;
 
       // Mise à jour des détails du produit dans l'état

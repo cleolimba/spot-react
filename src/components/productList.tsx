@@ -23,7 +23,7 @@ function ProductList() {
     try {
       setLoading(true);
       const response = await axios.get(
-        "http://localhost:3000/products"
+        "https://spot-light-cleolimba.onrender.com/products"
       );
 
       const data = await response.data;
